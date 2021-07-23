@@ -1,0 +1,6 @@
+aside {
+  min-width: 130px;
+  background-color: #fb7401;
+  border-radius: 0 15% 15% 0;
+  flex: 1;
+}

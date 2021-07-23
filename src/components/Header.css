@@ -1,0 +1,11 @@
+header {
+  background-color: #7000ff;
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  height: 65px;
+}
+header span {
+  color: #fb7401;
+}
