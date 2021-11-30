@@ -17,10 +17,10 @@ const App = () => {
   const [resultData, setResultData] = useState("Выберите автомобиль!");
   const tableCars = isFiltered ? filteredCars : cars;
   useEffect(() => {
-    const apiUrl = "https://city-mobil.ru/api/cars";
+    const apiUrl =
+      "https://my-json-server.typicode.com/cansolele/jsonserver/cars";
     axios.get(apiUrl).then((resp) => {
-      const jsoncars = resp.data;
-      setCars(jsoncars.cars);
+      setCars(resp.data);
     });
   }, [setCars]);
 

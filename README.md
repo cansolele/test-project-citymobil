@@ -1,10 +1,10 @@
 # Citymobil test task
+
 Functionality: \
-· Dynamic table [Api](https://city-mobil.ru/api/cars)\
+· Dynamic table ~~[Api](https://city-mobil.ru/api/cars)~~ [API](https://my-json-server.typicode.com/cansolele/jsonserver/cars) Shortened several times, the official API has been removed\
 · Filtering values\
 · Sort alphabetically, including sorting filtered values\
 · Car selection
-
 
 ## Getting Started with Create React App
 
@@ -21,7 +21,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
 
 ### `npm run build`
 
